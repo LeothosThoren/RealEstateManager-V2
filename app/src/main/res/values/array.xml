@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="point_of_interest">
+        <item> </item>
+        <item>Shopping area</item>
+        <item>Public school</item>
+        <item>Banks</item>
+        <item>Clinic</item>
+        <item>Restaurants</item>
+        <item>Pet services</item>
+    </string-array>
+
+    <string-array name="property_type">
+        <item> </item>
+        <item>Apartment</item>
+        <item>Chateau</item>
+        <item>Duplex</item>
+        <item>Flat</item>
+        <item>House</item>
+        <item>Penthouse</item>
+        <item>Villa</item>
+    </string-array>
+
+</resources>

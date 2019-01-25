@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_add_point_of_interest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="50"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/ic_point_of_interest"
+        android:padding="4dp"
+        android:text="Add POI" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_add_picture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="50"
+        android:background="@drawable/custom_edit_text"
+        android:drawableStart="@drawable/ic_add_image"
+        android:padding="4dp"
+        android:text="Add pictures" />
+
+
+</LinearLayout>

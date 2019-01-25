@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Real Estate Manager</string>
+
+    <!-- real estate fragment -->
+    <string name="item_name">Name</string>
+    <string name="item_location">Location</string>
+    <string name="item_price">$%1$s</string>
+    <!-- detail fragment-->
+    <string name="detail_media">Media</string>
+    <!-- menu toolbar -->
+    <string name="add_button">Add</string>
+    <string name="search_button">Search</string>
+    <string name="update_button">Update</string>
+    <!-- menu drawer -->
+    <string name="navigation_drawer_settings">Settings</string>
+    <string name="navigation_drawer_logout">Logout</string>
+    <string name="navigation_drawer_user_name">User name</string>
+    <!--Wifi setting-->
+    <string name="wifi_connection">Wifi connection</string>
+    <string name="mobile_connection">Mobile connection</string>
+    <string name="no_wifi_or_mobile">No wifi or mobile connection</string>
+    <!--Data-->
+    <string name="description">Description</string>
+    <string name="loremipsum">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."</string>
+    <string name="map_view">Map view</string>
+    <string name="address">%1$s</string>
+    <string name="line2">Line2</string>
+    <string name="city">City</string>
+    <string name="zip_code">Zip code</string>
+    <string name="country">Country</string>
+    <string name="number_of_rooms">Number of rooms</string>
+    <string name="location">Location</string>
+    <string name="surface">Surface</string>
+    <string name="surface_size">%1$d sq m</string>
+    <string name="number_of_bathrooms">Number of bathrooms</string>
+    <string name="number_of_bedrooms">Number of bedrooms</string>
+    <string name="room_quantity">%1$d</string>
+    <string name="bathroom_quantity">%1$d</string>
+    <string name="bedroom_quantity">%1$d</string>
+    <string name="no_description_to_display">No description to display</string>
+    <string name="pick_poi">Select the point of interest</string>
+    <string name="pattern">MM/dd/yyyy</string>
+    <!--Action button-->
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="save">SAVE</string>
+    <string name="update">UPDATE</string>
+    <string name="title_activity_maps">Locate the properties</string>
+    <string name="message_geolocation">Make sur you device geolocation is activated.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">ADD</string>
+    <string name="popup_title_permission_files_access">Permission file access</string>
+    <string name="toast_title_no_image_chosen">No image chosen!</string>
+    <string name="toast_title_no_video_chosen">No video chosen!</string>
+    <string name="button_ok">Ok</string>
+    <string name="map">Map</string>
+    <string name="navigation_drawer_open">Navigation drawer open</string>
+    <string name="navigation_drawer_close">Navigation drawer close</string>
+
+    <!-- BUG EXPLANATION
+    - Bug résolu ligne 17 :  this.textViewMain = findViewById(R.id.activity_main_activity_text_view_main);
+        le textView pointait sur un widget de la seconde activité
+    - Bug résolu ligne 32 :  this.textViewQuantity.setText(String.format("%d", quantity));
+        le setText attendait une ressource de type string ou une chaine de caractère quantity (un int) devait être casté...
+     -->
+</resources>
